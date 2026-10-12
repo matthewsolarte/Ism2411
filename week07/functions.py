@@ -75,3 +75,24 @@ def double_it(x):
 print(x)
 print(double_it(x))
 print(x)
+
+# --- Module 08 Reflection ---
+
+# 1. git log --oneline output:
+# 321edc1 add README with module listing and run instructions
+# b1babed add module 7 functions: calculate_tax, apply_discount, final_price
+# 80e3fe3 add .gitignore for Python and OS files
+# 7784144 Initial commit
+
+#
+# This history shows small, separate commits with clear messages. If I were
+# hiring, it would tell me this person works in organized steps, sets up the
+# project before adding code, and documents what they do.
+
+# 2. Git changes how I edit a working script. Before, I would copy the file
+# and rename it final2 or backup. Now I can make one small change, test it,
+# and commit it, knowing I can always go back to a version that worked.
+
+# 3. I would add my virtual environment folder, venv/, to .gitignore. It is
+# large, it is specific to my machine, and anyone can rebuild it from a
+# requirements file, so it should not be tracked.
