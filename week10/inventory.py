@@ -5,12 +5,11 @@
 #    and sort. I also did not expect negative indexes, where list[-1] gives the
 #    last item without knowing how long the list is.
 #
-# 2. For Solartech Logistics I compared Kenworth T680 truck prices from
-#    Ritchie Bros. auctions. I put the prices in Excel and had to write separate
-#    formulas for the average, the lowest price, and a filter for trucks under
-#    my budget. With a Python list, sum(), len(), min(), and one loop would do
-#    all of that at once, and I could reuse the same code every time new
-#    auctions came out.
+# 2. I track my own investments in VOO, Tesla, and NVIDIA. Tracking the daily
+#    closing prices in Excel meant writing separate formulas for the average,
+#    the highest and lowest price, and a filter for days the stock went above a
+#    target. With a Python list, sum(), len(), max(), min(), and one loop would do
+#    all of that at once, and I could reuse the same code for each stock.
 
 
 # Exercise 1
